@@ -1,0 +1,21 @@
+id,title,company,location,salary,job_type,description,date_posted,is_remote
+1,Software Engineer,Google,Mountain View,120000,Full-time,Develop scalable web applications and services,2025-11-01,Yes
+2,Data Analyst,Amazon,Seattle,95000,Full-time,Analyze business data and provide insights,2025-11-05,No
+3,Marketing Intern,Facebook,Menlo Park,25000,Internship,Assist in digital marketing campaigns,2025-11-10,Yes
+4,Frontend Developer,Microsoft,Redmond,110000,Full-time,Build responsive and dynamic UI components,2025-10-28,No
+5,UX Designer,Adobe,San Jose,105000,Full-time,Design user-friendly interfaces and experiences,2025-11-08,Yes
+6,Product Manager,Netflix,Los Angeles,135000,Full-time,Oversee product roadmap and strategy,2025-10-30,No
+7,Customer Support Executive,Zendesk,Remote,60000,Remote,Handle customer queries and feedback,2025-11-02,Yes
+8,Backend Developer,IBM,New York,115000,Full-time,Develop REST APIs and backend systems,2025-11-12,No
+9,Graphic Designer,Canva,Sydney,70000,Full-time,Create visuals for social media and marketing,2025-10-27,Yes
+10,Machine Learning Engineer,OpenAI,San Francisco,145000,Full-time,Design and train AI/ML models,2025-11-15,Yes
+11,HR Intern,Infosys,Bangalore,20000,Internship,Assist in recruitment and HR operations,2025-11-07,No
+12,Data Scientist,Accenture,London,130000,Full-time,Build predictive models and analyze trends,2025-11-09,No
+13,QA Tester,TCS,Mumbai,85000,Full-time,Test web and mobile applications for bugs,2025-10-29,No
+14,Content Writer,Medium,Remote,55000,Part-time,Write and edit engaging online articles,2025-11-03,Yes
+15,Full Stack Developer,Zoho,Chennai,100000,Full-time,Develop both frontend and backend systems,2025-11-11,No
+16,Marketing Specialist,HubSpot,Boston,95000,Full-time,Plan and execute marketing strategies,2025-11-06,Yes
+17,IT Support Engineer,Dell,Austin,78000,Full-time,Provide IT technical support and maintenance,2025-10-31,No
+18,Cloud Architect,Oracle,San Francisco,150000,Full-time,Design and manage cloud infrastructure,2025-11-14,Yes
+19,Social Media Manager,Hootsuite,Vancouver,80000,Remote,Manage social media channels and campaigns,2025-11-13,Yes
+20,Research Intern,NVIDIA,Santa Clara,30000,Internship,Assist in AI and GPU research projects,2025-11-04,No

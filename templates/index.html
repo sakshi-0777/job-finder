@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Job Listings</h1>
+<form method="get">
+    <input type="text" name="search" placeholder="Search jobs...">
+    <select name="job_type">
+        <option value="">All Types</option>
+        <option value="Full-time">Full-time</option>
+        <option value="Part-time">Part-time</option>
+        <option value="Internship">Internship</option>
+    </select>
+    <input type="text" name="location" placeholder="Location">
+    <button type="submit">Filter</button>
+</form>
+<div class="jobs">
+    {% for job in jobs %}
+    <div class="job-card">
+        <h3>{{ job.title }}</h3>
+        <p>{{ job.company }} | {{ job.location }} | {{ job.job_type }}</p>
+        <a href="{{ url_for('job_detail', job_id=job.id) }}">View Details</a>
+        {% if current_user.is_authenticated %}
+        <a href="{{ url_for('save_job', job_id=job.id) }}">Save Job</a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
